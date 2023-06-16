@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD8031492A31E174001D3FC0 /* 7.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466869280565AC0047E434 /* 7.ahap */; };
+		BD80314A2A31E177001D3FC0 /* 8.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686A280565AC0047E434 /* 8.ahap */; };
+		BD80314B2A31E179001D3FC0 /* 5.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686B280565AC0047E434 /* 5.ahap */; };
+		BD80314C2A31E17C001D3FC0 /* 4.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686C280565AC0047E434 /* 4.ahap */; };
+		BD80314D2A31E17F001D3FC0 /* 3.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686D280565AC0047E434 /* 3.ahap */; };
+		BD80314E2A31E183001D3FC0 /* Drums.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA46686E280565AC0047E434 /* Drums.wav */; };
+		BD80314F2A31E186001D3FC0 /* 9.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686F280565AC0047E434 /* 9.ahap */; };
+		BD8031502A31E188001D3FC0 /* 10.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466870280565AC0047E434 /* 10.ahap */; };
+		BD8031512A31E18B001D3FC0 /* 2.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466871280565AC0047E434 /* 2.ahap */; };
+		BD8031522A31E18D001D3FC0 /* 11.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466872280565AC0047E434 /* 11.ahap */; };
+		BD8031532A31E18F001D3FC0 /* 1.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466873280565AC0047E434 /* 1.ahap */; };
+		BD8031542A31E192001D3FC0 /* 12.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466874280565AC0047E434 /* 12.ahap */; };
+		BD8031552A31E194001D3FC0 /* 13.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466875280565AC0047E434 /* 13.ahap */; };
+		BD8031562A31E197001D3FC0 /* 14.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466876280565AC0047E434 /* 14.ahap */; };
+		BD8031572A31E199001D3FC0 /* 6.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466877280565AC0047E434 /* 6.ahap */; };
+		BD8031632A31E299001D3FC0 /* FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9DD1F2A2278E800AB6AEE /* FitnessApp.swift */; };
+		BD8031642A31E2BF001D3FC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA466840280565990047E434 /* ContentView.swift */; };
+		BD8031652A31E2CC001D3FC0 /* HapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA466889280565EA0047E434 /* HapticEngine.swift */; };
+		BD8031662A31E31D001D3FC0 /* FitnessProgramPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9DCFA2A1D278B00AB6AEE /* FitnessProgramPlayer.swift */; };
+		BD8031672A31E320001D3FC0 /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9DCFC2A1D27CD00AB6AEE /* Excercise.swift */; };
+		BDC9DCFB2A1D278B00AB6AEE /* FitnessProgramPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9DCFA2A1D278B00AB6AEE /* FitnessProgramPlayer.swift */; };
+		BDC9DCFD2A1D27CD00AB6AEE /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9DCFC2A1D27CD00AB6AEE /* Excercise.swift */; };
+		BDC9DD242A2278EA00AB6AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC9DD232A2278EA00AB6AEE /* Assets.xcassets */; };
+		BDC9DD272A2278EA00AB6AEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC9DD262A2278EA00AB6AEE /* Preview Assets.xcassets */; };
+		BDC9DD2A2A2278EA00AB6AEE /* Fitness Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BDC9DD1D2A2278E700AB6AEE /* Fitness Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA46683F280565990047E434 /* HapticFeedbackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46683E280565990047E434 /* HapticFeedbackApp.swift */; };
+		CA466841280565990047E434 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA466840280565990047E434 /* ContentView.swift */; };
+		CA4668432805659A0047E434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4668422805659A0047E434 /* Assets.xcassets */; };
+		CA4668462805659A0047E434 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4668452805659A0047E434 /* Preview Assets.xcassets */; };
+		CA4668502805659A0047E434 /* HapticFeedbackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46684F2805659A0047E434 /* HapticFeedbackTests.swift */; };
+		CA46685A2805659A0047E434 /* HapticFeedbackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4668592805659A0047E434 /* HapticFeedbackUITests.swift */; };
+		CA46685C2805659A0047E434 /* HapticFeedbackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46685B2805659A0047E434 /* HapticFeedbackUITestsLaunchTests.swift */; };
+		CA466879280565AC0047E434 /* 7.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466869280565AC0047E434 /* 7.ahap */; };
+		CA46687A280565AC0047E434 /* 8.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686A280565AC0047E434 /* 8.ahap */; };
+		CA46687B280565AC0047E434 /* 5.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686B280565AC0047E434 /* 5.ahap */; };
+		CA46687C280565AC0047E434 /* 4.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686C280565AC0047E434 /* 4.ahap */; };
+		CA46687D280565AC0047E434 /* 3.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686D280565AC0047E434 /* 3.ahap */; };
+		CA46687E280565AC0047E434 /* Drums.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA46686E280565AC0047E434 /* Drums.wav */; };
+		CA46687F280565AC0047E434 /* 9.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA46686F280565AC0047E434 /* 9.ahap */; };
+		CA466880280565AC0047E434 /* 10.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466870280565AC0047E434 /* 10.ahap */; };
+		CA466881280565AC0047E434 /* 2.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466871280565AC0047E434 /* 2.ahap */; };
+		CA466882280565AC0047E434 /* 11.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466872280565AC0047E434 /* 11.ahap */; };
+		CA466883280565AC0047E434 /* 1.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466873280565AC0047E434 /* 1.ahap */; };
+		CA466884280565AC0047E434 /* 12.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466874280565AC0047E434 /* 12.ahap */; };
+		CA466885280565AC0047E434 /* 13.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466875280565AC0047E434 /* 13.ahap */; };
+		CA466886280565AC0047E434 /* 14.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466876280565AC0047E434 /* 14.ahap */; };
+		CA466887280565AC0047E434 /* 6.ahap in Resources */ = {isa = PBXBuildFile; fileRef = CA466877280565AC0047E434 /* 6.ahap */; };
+		CA46688A280565EA0047E434 /* HapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA466889280565EA0047E434 /* HapticEngine.swift */; };
+		CA46688D280566830047E434 /* PusherSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA46688C280566830047E434 /* PusherSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDC9DD282A2278EA00AB6AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA466833280565990047E434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC9DD1C2A2278E700AB6AEE;
+			remoteInfo = "Fitness Watch App";
+		};
+		CA46684C2805659A0047E434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA466833280565990047E434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA46683A280565990047E434;
+			remoteInfo = HapticFeedback;
+		};
+		CA4668562805659A0047E434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA466833280565990047E434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA46683A280565990047E434;
+			remoteInfo = HapticFeedback;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BDC9DD2B2A2278EA00AB6AEE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BDC9DD2A2A2278EA00AB6AEE /* Fitness Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD8968AB2A3B0753000E1219 /* Fitness-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fitness-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BD8968AC2A3B08D8000E1219 /* Fitness Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fitness Watch App.entitlements"; sourceTree = "<group>"; };
+		BDC9DCFA2A1D278B00AB6AEE /* FitnessProgramPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessProgramPlayer.swift; sourceTree = "<group>"; };
+		BDC9DCFC2A1D27CD00AB6AEE /* Excercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Excercise.swift; path = ../../../../../Excercise.swift; sourceTree = "<group>"; };
+		BDC9DD1D2A2278E700AB6AEE /* Fitness Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC9DD1F2A2278E800AB6AEE /* FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessApp.swift; sourceTree = "<group>"; };
+		BDC9DD232A2278EA00AB6AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDC9DD262A2278EA00AB6AEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA46683B280565990047E434 /* HapticFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA46683E280565990047E434 /* HapticFeedbackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackApp.swift; sourceTree = "<group>"; };
+		CA466840280565990047E434 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA4668422805659A0047E434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA4668452805659A0047E434 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA46684B2805659A0047E434 /* HapticFeedbackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticFeedbackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA46684F2805659A0047E434 /* HapticFeedbackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackTests.swift; sourceTree = "<group>"; };
+		CA4668552805659A0047E434 /* HapticFeedbackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticFeedbackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4668592805659A0047E434 /* HapticFeedbackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackUITests.swift; sourceTree = "<group>"; };
+		CA46685B2805659A0047E434 /* HapticFeedbackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA466869280565AC0047E434 /* 7.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 7.ahap; sourceTree = "<group>"; };
+		CA46686A280565AC0047E434 /* 8.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 8.ahap; sourceTree = "<group>"; };
+		CA46686B280565AC0047E434 /* 5.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.ahap; sourceTree = "<group>"; };
+		CA46686C280565AC0047E434 /* 4.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.ahap; sourceTree = "<group>"; };
+		CA46686D280565AC0047E434 /* 3.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.ahap; sourceTree = "<group>"; };
+		CA46686E280565AC0047E434 /* Drums.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drums.wav; sourceTree = "<group>"; };
+		CA46686F280565AC0047E434 /* 9.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9.ahap; sourceTree = "<group>"; };
+		CA466870280565AC0047E434 /* 10.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10.ahap; sourceTree = "<group>"; };
+		CA466871280565AC0047E434 /* 2.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.ahap; sourceTree = "<group>"; };
+		CA466872280565AC0047E434 /* 11.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 11.ahap; sourceTree = "<group>"; };
+		CA466873280565AC0047E434 /* 1.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.ahap; sourceTree = "<group>"; };
+		CA466874280565AC0047E434 /* 12.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 12.ahap; sourceTree = "<group>"; };
+		CA466875280565AC0047E434 /* 13.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 13.ahap; sourceTree = "<group>"; };
+		CA466876280565AC0047E434 /* 14.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 14.ahap; sourceTree = "<group>"; };
+		CA466877280565AC0047E434 /* 6.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 6.ahap; sourceTree = "<group>"; };
+		CA466889280565EA0047E434 /* HapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDC9DD1A2A2278E700AB6AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA466838280565990047E434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA46688D280566830047E434 /* PusherSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4668482805659A0047E434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4668522805659A0047E434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDC9DD1E2A2278E800AB6AEE /* Fitness Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BD8968AC2A3B08D8000E1219 /* Fitness Watch App.entitlements */,
+				BD8968AB2A3B0753000E1219 /* Fitness-Watch-App-Info.plist */,
+				BDC9DD1F2A2278E800AB6AEE /* FitnessApp.swift */,
+				BDC9DD232A2278EA00AB6AEE /* Assets.xcassets */,
+				BDC9DD252A2278EA00AB6AEE /* Preview Content */,
+			);
+			path = "Fitness Watch App";
+			sourceTree = "<group>";
+		};
+		BDC9DD252A2278EA00AB6AEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDC9DD262A2278EA00AB6AEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA466832280565990047E434 = {
+			isa = PBXGroup;
+			children = (
+				CA46683D280565990047E434 /* HapticFeedback */,
+				CA46684E2805659A0047E434 /* HapticFeedbackTests */,
+				CA4668582805659A0047E434 /* HapticFeedbackUITests */,
+				BDC9DD1E2A2278E800AB6AEE /* Fitness Watch App */,
+				CA46683C280565990047E434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA46683C280565990047E434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA46683B280565990047E434 /* HapticFeedback.app */,
+				CA46684B2805659A0047E434 /* HapticFeedbackTests.xctest */,
+				CA4668552805659A0047E434 /* HapticFeedbackUITests.xctest */,
+				BDC9DD1D2A2278E700AB6AEE /* Fitness Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA46683D280565990047E434 /* HapticFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				CA466868280565AC0047E434 /* AHAP */,
+				CA46683E280565990047E434 /* HapticFeedbackApp.swift */,
+				CA466840280565990047E434 /* ContentView.swift */,
+				BDC9DCFA2A1D278B00AB6AEE /* FitnessProgramPlayer.swift */,
+				BDC9DCFC2A1D27CD00AB6AEE /* Excercise.swift */,
+				CA4668422805659A0047E434 /* Assets.xcassets */,
+				CA4668442805659A0047E434 /* Preview Content */,
+			);
+			path = HapticFeedback;
+			sourceTree = "<group>";
+		};
+		CA4668442805659A0047E434 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA4668452805659A0047E434 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA46684E2805659A0047E434 /* HapticFeedbackTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA46684F2805659A0047E434 /* HapticFeedbackTests.swift */,
+			);
+			path = HapticFeedbackTests;
+			sourceTree = "<group>";
+		};
+		CA4668582805659A0047E434 /* HapticFeedbackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA4668592805659A0047E434 /* HapticFeedbackUITests.swift */,
+				CA46685B2805659A0047E434 /* HapticFeedbackUITestsLaunchTests.swift */,
+			);
+			path = HapticFeedbackUITests;
+			sourceTree = "<group>";
+		};
+		CA466868280565AC0047E434 /* AHAP */ = {
+			isa = PBXGroup;
+			children = (
+				CA466889280565EA0047E434 /* HapticEngine.swift */,
+				CA466869280565AC0047E434 /* 7.ahap */,
+				CA46686A280565AC0047E434 /* 8.ahap */,
+				CA46686B280565AC0047E434 /* 5.ahap */,
+				CA46686C280565AC0047E434 /* 4.ahap */,
+				CA46686D280565AC0047E434 /* 3.ahap */,
+				CA46686E280565AC0047E434 /* Drums.wav */,
+				CA46686F280565AC0047E434 /* 9.ahap */,
+				CA466870280565AC0047E434 /* 10.ahap */,
+				CA466871280565AC0047E434 /* 2.ahap */,
+				CA466872280565AC0047E434 /* 11.ahap */,
+				CA466873280565AC0047E434 /* 1.ahap */,
+				CA466874280565AC0047E434 /* 12.ahap */,
+				CA466875280565AC0047E434 /* 13.ahap */,
+				CA466876280565AC0047E434 /* 14.ahap */,
+				CA466877280565AC0047E434 /* 6.ahap */,
+			);
+			path = AHAP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDC9DD1C2A2278E700AB6AEE /* Fitness Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC9DD2E2A2278EA00AB6AEE /* Build configuration list for PBXNativeTarget "Fitness Watch App" */;
+			buildPhases = (
+				BDC9DD192A2278E700AB6AEE /* Sources */,
+				BDC9DD1A2A2278E700AB6AEE /* Frameworks */,
+				BDC9DD1B2A2278E700AB6AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness Watch App";
+			productName = "Fitness Watch App";
+			productReference = BDC9DD1D2A2278E700AB6AEE /* Fitness Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA46683A280565990047E434 /* HapticFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA46685F2805659A0047E434 /* Build configuration list for PBXNativeTarget "HapticFeedback" */;
+			buildPhases = (
+				CA466837280565990047E434 /* Sources */,
+				CA466838280565990047E434 /* Frameworks */,
+				CA466839280565990047E434 /* Resources */,
+				BDC9DD2B2A2278EA00AB6AEE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC9DD292A2278EA00AB6AEE /* PBXTargetDependency */,
+			);
+			name = HapticFeedback;
+			packageProductDependencies = (
+				CA46688C280566830047E434 /* PusherSwift */,
+			);
+			productName = HapticFeedback;
+			productReference = CA46683B280565990047E434 /* HapticFeedback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA46684A2805659A0047E434 /* HapticFeedbackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4668622805659A0047E434 /* Build configuration list for PBXNativeTarget "HapticFeedbackTests" */;
+			buildPhases = (
+				CA4668472805659A0047E434 /* Sources */,
+				CA4668482805659A0047E434 /* Frameworks */,
+				CA4668492805659A0047E434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA46684D2805659A0047E434 /* PBXTargetDependency */,
+			);
+			name = HapticFeedbackTests;
+			productName = HapticFeedbackTests;
+			productReference = CA46684B2805659A0047E434 /* HapticFeedbackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA4668542805659A0047E434 /* HapticFeedbackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4668652805659A0047E434 /* Build configuration list for PBXNativeTarget "HapticFeedbackUITests" */;
+			buildPhases = (
+				CA4668512805659A0047E434 /* Sources */,
+				CA4668522805659A0047E434 /* Frameworks */,
+				CA4668532805659A0047E434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA4668572805659A0047E434 /* PBXTargetDependency */,
+			);
+			name = HapticFeedbackUITests;
+			productName = HapticFeedbackUITests;
+			productReference = CA4668552805659A0047E434 /* HapticFeedbackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA466833280565990047E434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BDC9DD1C2A2278E700AB6AEE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CA46683A280565990047E434 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					CA46684A2805659A0047E434 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CA46683A280565990047E434;
+					};
+					CA4668542805659A0047E434 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CA46683A280565990047E434;
+					};
+				};
+			};
+			buildConfigurationList = CA466836280565990047E434 /* Build configuration list for PBXProject "HapticFeedback" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA466832280565990047E434;
+			packageReferences = (
+				CA46688B280566830047E434 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */,
+			);
+			productRefGroup = CA46683C280565990047E434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA46683A280565990047E434 /* HapticFeedback */,
+				CA46684A2805659A0047E434 /* HapticFeedbackTests */,
+				CA4668542805659A0047E434 /* HapticFeedbackUITests */,
+				BDC9DD1C2A2278E700AB6AEE /* Fitness Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDC9DD1B2A2278E700AB6AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8031532A31E18F001D3FC0 /* 1.ahap in Resources */,
+				BD80314E2A31E183001D3FC0 /* Drums.wav in Resources */,
+				BD8031542A31E192001D3FC0 /* 12.ahap in Resources */,
+				BD8031552A31E194001D3FC0 /* 13.ahap in Resources */,
+				BD8031562A31E197001D3FC0 /* 14.ahap in Resources */,
+				BD8031572A31E199001D3FC0 /* 6.ahap in Resources */,
+				BD80314F2A31E186001D3FC0 /* 9.ahap in Resources */,
+				BD80314D2A31E17F001D3FC0 /* 3.ahap in Resources */,
+				BD80314B2A31E179001D3FC0 /* 5.ahap in Resources */,
+				BD8031502A31E188001D3FC0 /* 10.ahap in Resources */,
+				BDC9DD272A2278EA00AB6AEE /* Preview Assets.xcassets in Resources */,
+				BD8031512A31E18B001D3FC0 /* 2.ahap in Resources */,
+				BD80314C2A31E17C001D3FC0 /* 4.ahap in Resources */,
+				BDC9DD242A2278EA00AB6AEE /* Assets.xcassets in Resources */,
+				BD8031522A31E18D001D3FC0 /* 11.ahap in Resources */,
+				BD80314A2A31E177001D3FC0 /* 8.ahap in Resources */,
+				BD8031492A31E174001D3FC0 /* 7.ahap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA466839280565990047E434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA466883280565AC0047E434 /* 1.ahap in Resources */,
+				CA46687E280565AC0047E434 /* Drums.wav in Resources */,
+				CA46687F280565AC0047E434 /* 9.ahap in Resources */,
+				CA46687D280565AC0047E434 /* 3.ahap in Resources */,
+				CA46687B280565AC0047E434 /* 5.ahap in Resources */,
+				CA466887280565AC0047E434 /* 6.ahap in Resources */,
+				CA466879280565AC0047E434 /* 7.ahap in Resources */,
+				CA46687C280565AC0047E434 /* 4.ahap in Resources */,
+				CA466881280565AC0047E434 /* 2.ahap in Resources */,
+				CA466884280565AC0047E434 /* 12.ahap in Resources */,
+				CA46687A280565AC0047E434 /* 8.ahap in Resources */,
+				CA466886280565AC0047E434 /* 14.ahap in Resources */,
+				CA4668462805659A0047E434 /* Preview Assets.xcassets in Resources */,
+				CA466880280565AC0047E434 /* 10.ahap in Resources */,
+				CA466882280565AC0047E434 /* 11.ahap in Resources */,
+				CA4668432805659A0047E434 /* Assets.xcassets in Resources */,
+				CA466885280565AC0047E434 /* 13.ahap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4668492805659A0047E434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4668532805659A0047E434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDC9DD192A2278E700AB6AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8031642A31E2BF001D3FC0 /* ContentView.swift in Sources */,
+				BD8031652A31E2CC001D3FC0 /* HapticEngine.swift in Sources */,
+				BD8031662A31E31D001D3FC0 /* FitnessProgramPlayer.swift in Sources */,
+				BD8031672A31E320001D3FC0 /* Excercise.swift in Sources */,
+				BD8031632A31E299001D3FC0 /* FitnessApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA466837280565990047E434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA46688A280565EA0047E434 /* HapticEngine.swift in Sources */,
+				CA466841280565990047E434 /* ContentView.swift in Sources */,
+				BDC9DCFB2A1D278B00AB6AEE /* FitnessProgramPlayer.swift in Sources */,
+				BDC9DCFD2A1D27CD00AB6AEE /* Excercise.swift in Sources */,
+				CA46683F280565990047E434 /* HapticFeedbackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4668472805659A0047E434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4668502805659A0047E434 /* HapticFeedbackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4668512805659A0047E434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA46685C2805659A0047E434 /* HapticFeedbackUITestsLaunchTests.swift in Sources */,
+				CA46685A2805659A0047E434 /* HapticFeedbackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDC9DD292A2278EA00AB6AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC9DD1C2A2278E700AB6AEE /* Fitness Watch App */;
+			targetProxy = BDC9DD282A2278EA00AB6AEE /* PBXContainerItemProxy */;
+		};
+		CA46684D2805659A0047E434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA46683A280565990047E434 /* HapticFeedback */;
+			targetProxy = CA46684C2805659A0047E434 /* PBXContainerItemProxy */;
+		};
+		CA4668572805659A0047E434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA46683A280565990047E434 /* HapticFeedback */;
+			targetProxy = CA4668562805659A0047E434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDC9DD2C2A2278EA00AB6AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Fitness Watch App/Fitness Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RR7S3ULPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fitness-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Fitness;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your app needs access to read health data for calculating heart rate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = Health;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = nl.vooruitmet.HapticFeedback;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vooruitmet.HapticFeedback.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		BDC9DD2D2A2278EA00AB6AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Fitness Watch App/Fitness Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RR7S3ULPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fitness-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Fitness;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your app needs access to read health data for calculating heart rate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = Health;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = nl.vooruitmet.HapticFeedback;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vooruitmet.HapticFeedback.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		CA46685D2805659A0047E434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA46685E2805659A0047E434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA4668602805659A0047E434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HapticFeedback/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RR7S3ULPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vooruitmet.HapticFeedback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA4668612805659A0047E434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HapticFeedback/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RR7S3ULPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vooruitmet.HapticFeedback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA4668632805659A0047E434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 392M2T94T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vooruitmet.HapticFeedbackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticFeedback.app/HapticFeedback";
+			};
+			name = Debug;
+		};
+		CA4668642805659A0047E434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 392M2T94T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vooruitmet.HapticFeedbackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticFeedback.app/HapticFeedback";
+			};
+			name = Release;
+		};
+		CA4668662805659A0047E434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 392M2T94T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vooruitmet.HapticFeedbackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapticFeedback;
+			};
+			name = Debug;
+		};
+		CA4668672805659A0047E434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 392M2T94T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vooruitmet.HapticFeedbackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapticFeedback;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDC9DD2E2A2278EA00AB6AEE /* Build configuration list for PBXNativeTarget "Fitness Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC9DD2C2A2278EA00AB6AEE /* Debug */,
+				BDC9DD2D2A2278EA00AB6AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA466836280565990047E434 /* Build configuration list for PBXProject "HapticFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA46685D2805659A0047E434 /* Debug */,
+				CA46685E2805659A0047E434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA46685F2805659A0047E434 /* Build configuration list for PBXNativeTarget "HapticFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4668602805659A0047E434 /* Debug */,
+				CA4668612805659A0047E434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4668622805659A0047E434 /* Build configuration list for PBXNativeTarget "HapticFeedbackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4668632805659A0047E434 /* Debug */,
+				CA4668642805659A0047E434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4668652805659A0047E434 /* Build configuration list for PBXNativeTarget "HapticFeedbackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4668662805659A0047E434 /* Debug */,
+				CA4668672805659A0047E434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA46688B280566830047E434 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pusher/pusher-websocket-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA46688C280566830047E434 /* PusherSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA46688B280566830047E434 /* XCRemoteSwiftPackageReference "pusher-websocket-swift" */;
+			productName = PusherSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CA466833280565990047E434 /* Project object */;
+}
